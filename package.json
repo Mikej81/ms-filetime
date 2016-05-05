@@ -1,14 +1,30 @@
 {
   "name": "ms-filetime",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Easily convert Microsoft FILETIME value to Unix / Java time.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "Michael Coleman <stumpj@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikej81/ms-filetime.git"
+  },
+  "keywords": [
+    "Microsoft",
+    "FILETIME"
+  ],
+  "bugs": {
+    "url": "https://github.com/Mikej81/ms-filetime/issues"
+  },
+  "homepage": "https://github.com/Mikej81/ms-filetime#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
