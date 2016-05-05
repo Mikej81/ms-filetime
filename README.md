@@ -13,7 +13,9 @@ Easily convert Microsoft FILETIME value to GMT time.
 
   console.log(MConvert('2985901175'));
 ```
-
+```
+Output:  Mon, 01 Jan 1601 04:57:13 GMT
+```
 ## Tests
 ```
   npm test
