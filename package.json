@@ -1,6 +1,6 @@
 {
   "name": "ms-filetime",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Easily convert Microsoft FILETIME value to Unix / Java time.",
   "main": "index.js",
   "directories": {
